@@ -4,7 +4,7 @@ A tiny menu-bar app for jotting down a line and having it land in the right file
 
 You point Markie at the few files you actually use (a daily log, a notes file, a running todo list, whatever), give each one a hotkey, and you're done. Hit the hotkey, type, press return — the line shows up at the bottom of the file. That's the whole idea.
 
-<img width="2560" height="1440" alt="Frame 1948754415" src="https://github.com/user-attachments/assets/d677614c-cf4b-42fe-806a-5adf44be46c1" />
+<img width="2560" height="1440" alt="Frame 1948754415" src="https://github.com/user-attachments/assets/d677614c-cf4b-42fe-806a-5adf44be46c1" />
 
 
 ## Install
