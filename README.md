@@ -1,50 +1,46 @@
 # Markie
 
-A tiny macOS quick-capture panel. Hit a global hotkey, type a line, and it gets appended to the file you've registered — no app switch, no save dialog, no friction.
+A tiny menu-bar app for jotting down a line and having it land in the right file — no app switch, no save dialog, no friction.
 
-Markie lives in your menu bar. You point it at a handful of plain-text or Markdown files (a daily log, a notes file, a task list, whatever you actually keep) and bind each one to a hotkey. Pressing the hotkey opens a small floating panel; whatever you type lands at the bottom (or top) of that file when you hit ⌘↩.
+You point Markie at the few files you actually use (a daily log, a notes file, a running todo list, whatever), give each one a hotkey, and you're done. Hit the hotkey, type, press return — the line shows up at the bottom of the file. That's the whole idea.
 
 ## Install
 
 1. Download the latest **Markie-x.y.dmg** from [Releases](https://github.com/asekachov/Markie/releases/latest).
-2. Open the DMG and drag **Markie.app** to your Applications folder.
-3. Launch Markie. It runs as a menu-bar app — look for the grid icon in the right-hand side of the menu bar.
+2. Open the DMG and drag **Markie** into your **Applications** folder.
+3. Launch it. Markie sits in the menu bar — look for the small grid icon on the right side.
 
-Markie is signed with a Developer ID and notarized by Apple, so Gatekeeper opens it on the first run without warnings.
+Requires macOS 26.1 or later.
 
-**Requires macOS 26.1 or later.**
+## How to use it
 
-## How it works
+**Set up a file.** From the menu bar, open Markie's settings and add any plain-text or Markdown file. Optionally give it an alias and a hotkey of your own.
 
-- **Add a file.** From the menu bar, open Markie's settings and add any plain-text or Markdown file. Optionally give it an alias and a global hotkey.
-- **Capture.** Press the hotkey for the file you want to write to. A small panel appears centered on your screen, focused and ready.
-- **Submit.**
-  - **⌘ + ↩** — append the line to the file.
-  - **⌘ + ⇧ + ↩** — prepend (write at the top instead).
-  - **⌘ + ⌥ + ↩** — append and open the file in your default editor.
-  - **⌘ + O** — just open the file without writing.
-  - **⎋** — dismiss the panel.
-- **Switch files.** Press **⇥** to open a dropdown of all your registered files and pick one with arrow keys + return.
-- **Todo mode.** Files can be marked as todo-style; new lines are wrapped as Markdown checklist items.
+**Capture a thought.** Press the hotkey. A small panel slides in, focused and ready. Type whatever you want to save.
 
-## Auto-updates
+**Send it on its way.**
 
-Markie ships with [Sparkle](https://sparkle-project.org). Once installed, it checks this repo's appcast on launch and offers updates as they're posted. You can also trigger a check manually from the menu bar.
+| Shortcut | What it does |
+|---|---|
+| ⌘ ↩ | Append the line to the file |
+| ⌘ ⇧ ↩ | Prepend (write at the top instead) |
+| ⌘ ⌥ ↩ | Append, then open the file |
+| ⌘ O | Just open the file |
+| ⎋ | Cancel and dismiss |
 
-The update feed: <https://asekachov.github.io/Markie/appcast.xml>
+**Switch files.** Press ⇥ to open a list of all your files; arrow keys + return to pick one.
 
-## What this repo is
+**Todo mode.** Mark a file as todo-style and new lines come out as checklist items.
 
-This is the **public releases repo**. It contains:
-- Signed, notarized **DMGs**, one per release.
-- The Sparkle **appcast.xml** (served via GitHub Pages so the app can fetch it).
-- This README.
+That's it. Markie stays out of the way until you need it, and gets out of the way the moment you're done.
 
-The source code lives in a separate, private repository.
+## Updates
+
+Markie checks for new versions on its own. When one's available it'll quietly offer to install it on launch — no maintenance on your end.
 
 ## Releases
 
-See [the Releases page](https://github.com/asekachov/Markie/releases) for the full version history.
+See [the Releases page](https://github.com/asekachov/Markie/releases) for what's new in each version.
 
 ---
 
