@@ -2,7 +2,7 @@
 
 A tiny menu-bar app for jotting down a line and having it land in the right file — no app switch, no save dialog, no friction.
 
-**[⬇︎ Download Markie for macOS](https://github.com/asekachov/Markie/releases/latest/download/Markie.dmg)** — always points at the latest release.
+**[⬇︎ Download Markie for macOS](https://github.com/asekachov/Markie/releases/latest/download/Markie.dmg)**.
 
 You point Markie at the few files you actually use (a daily log, a notes file, a running todo list, whatever), give each one a hotkey, and you're done. Hit the hotkey, type, press return — the line shows up at the bottom of the file. That's the whole idea.
 
