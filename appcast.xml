@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Markie</title>
+        <item>
+            <title>1.0</title>
+            <pubDate>Mon, 27 Apr 2026 13:08:06 +0200</pubDate>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <enclosure url="https://asekachov.github.io/Markie/Markie-1.0.dmg" length="27862618" type="application/octet-stream" sparkle:edSignature="7lZEHyP8ecwfgughF8Hgiiw7sixNe6PgHQWVJKCOSE1MJ56sHU8mx0eHwPs2//jcDxlqgYSHPztZmzPgDqpuBQ=="/>
+        </item>
+    </channel>
+</rss>
