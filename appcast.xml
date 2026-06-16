@@ -3,6 +3,17 @@
     <channel>
         <title>Markie</title>
         <item>
+            <title>1.1</title>
+            <pubDate>Tue, 16 Jun 2026 18:43:55 +0200</pubDate>
+            <sparkle:version>2</sparkle:version>
+            <sparkle:shortVersionString>1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.1</sparkle:minimumSystemVersion>
+            <enclosure url="https://asekachov.github.io/Markie/Markie-1.1.dmg" length="59529481" type="application/octet-stream" sparkle:edSignature="FvwF1TIOEEAHwHdUMWebqMC0Zv/Y+GDI8/xWDkq9JzgVgQfan+9xaCLzHyueEHJdOHQoHwLW2WsxQXMwkf8VBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://asekachov.github.io/Markie/Markie2-1.delta" sparkle:deltaFrom="1" length="5423314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="j3sYoy7SyNnJ9HcoC1wp6si8tKOwXn7S/LLOS5Y6Z4c5ud+PNUi5aBfIHvE7JRfXIuGFt5osX22O6N4acBcNDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.0</title>
             <pubDate>Mon, 27 Apr 2026 13:23:01 +0200</pubDate>
             <sparkle:version>1</sparkle:version>
